@@ -1,0 +1,18 @@
+</!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<title>first angular app</title>
+</head>
+<body ng-app="lunchCheck">
+<h1> Your Lunch Checker!</h1>
+<div ng-controller="lunchCheckController " class="container">
+<input type="input" placeholder="What would you like to have for lunch today? :)" >
+<div><button type="submit"><span>Check Menu</span></button></div>
+<div ng-model="message">{{message}}</div>
+</div>
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
