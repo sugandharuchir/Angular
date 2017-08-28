@@ -8,13 +8,13 @@ input{
 	width: 400px;
 	border-radius: 0.5px;
 }
-button{
+/*button{
 	height:30px;
 	width:60px;
 	color: gray;
 	/*padding: 10px;*/
 	margin: 10px;
-}
+}*/
 span>button{
 	padding: 10px;
 }
