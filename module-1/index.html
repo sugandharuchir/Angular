@@ -8,8 +8,8 @@
 <body ng-app="lunchCheck">
 <h1> Your Lunch Checker!</h1>
 <div ng-controller="LunchController" class="container">
-<input type="input" placeholder="What would you like to have for lunch today? :)" >
-<button type="submit"><span>Check Menu</span></button>
+<input type="input" ng-model="menu" placeholder="What would you like to have for lunch today? :)" >
+<button ng-click="CheckMenu(menu)" type="submit"><span>Check Menu</span></button>
 <div ng-model="message"> {{ message }} </div>
 </div>
 <script type="text/javascript" src="angular.min.js"></script>
